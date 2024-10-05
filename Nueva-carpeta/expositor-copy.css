@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.img-sanvicente{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+.div-nav {
+    width: 200px; /* Ancho del navbar */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #333; /* Color de fondo */
+    position: fixed; /* Fijo a la izquierda */
+    top: 0;
+    left: 0;
+}
+
+.barra-navegacion {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+.barra-navegacion ul {
+    padding: 0;
+}
+
+.barra-navegacion li {
+    padding: 15px; /* Espaciado interno */
+}
+
+.barra-navegacion a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Que ocupe todo el espacio */
+}
+
+.barra-navegacion a:hover {
+    background-color: #575757; /* Color al pasar el mouse */
+}
+
+.grid{
+    margin: 30px;
+    display: grid;
+    height: 60%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-auto-rows: 100px;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-solicitud{
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.input-solicitud:focus{
+    outline: 1px solid #999;
+}
+
+.div-boton{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-confirmar{
+    background-color: #95BE27;
+    padding: 10px;
+    width: minmax(100px, 180px);
+    height: 50px;
+    border: 1px solid #007048;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
