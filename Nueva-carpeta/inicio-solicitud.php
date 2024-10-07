@@ -9,12 +9,15 @@
 </head>
 <body>
     <div class="fondo">
+    <div class="img-sanvicente">
+        <img src="https://rondanet.sanvicentefundacion.com/themes/custom/svf_theme_rondanet/san-vicente.svg" alt="San Vicente Logo">
+    </div>
         <div class="div-titulo">
             <h1 class="titulo">SOLICITUD DE SERVICIOS</h1>
         </div>
         <div class="div-botones">
             <a class="btn" id="realizarSolicitud" href="index-copy.php">REALIZAR SOLICITUD</a>
-            <a class="btn" id="confirmarRecibido" href="">CONFIRMAR RECIBIDO</a>
+            <a class="btn" id="confirmarRecibido" href="recibido.php">CONFIRMAR RECIBIDO</a>
         </div>
     </div>
 </body>

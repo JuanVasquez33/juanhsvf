@@ -13,6 +13,7 @@
     </div>
     <div class="contenido">
         <h1 class="titulo">ASISTENCIA A LOS EVENTOS FORMATIVOS</h1>
+        <hr class="linea">
         <div class="grid">
             <div class="div-input">
                 <label for="idFecha">Fecha de solicitud</label>
@@ -24,7 +25,16 @@
             </div>
             <div class="div-input">
                 <label for="idServicio">Servicio que solicita</label>
-                <select class="input-solicitud" name="" id="idServicio">
+                <select class="input-solicitud select" name="" id="idServicio">
+                    <option value="">Seleccione el Servicio</option>
+                    <option value="">Seleccione el Servicio</option>
+                    <option value="">Seleccione el Servicio</option>
+                    <option value="">Seleccione el Servicio</option>
+                </select>
+            </div>
+            <div class="div-input">
+                <label for="idEquipo">Equipo que solicita</label>
+                <select class="input-solicitud select" name="" id="idEquipo">
                     <option value="">Seleccione el Servicio</option>
                     <option value="">Seleccione el Servicio</option>
                     <option value="">Seleccione el Servicio</option>
@@ -33,19 +43,15 @@
             </div>
             <div class="div-input">
                 <label for="idConsecutivo">Material individual enviado a esterilizar</label>
-                <input class="input-solicitud" type="text" id="idCentroCostos">
+                <textarea class="input-solicitud textarea" type="text" id="idCentroCostos"></textarea>
             </div>
-            <div class="div-input">
-                <label for="idDuracion">Persona que entrega el material en el servicio</label>
-                <input class="input-solicitud" type="text" id="idDuracion">
-            </div>
-            <div class="div-input">
-                <label for="idSalon">Persona que recibe el material</label>
-                <input class="input-solicitud" type="text" id="idSalon">
+            <div class="div-input" id="div-obs">
+                <label for="idObservaciones">Observaciones</label>
+                <textarea class="input-solicitud textarea" type="text" id="idObservaciones"></textarea>
             </div>
         </div>
         <div class="div-boton">
-            <button id="btn-confirmar">Confirmar solicitud</button>
+            <button class="btn" id="btn-confirmar">Confirmar solicitud</button>
         </div>
     </div>
 </body>
